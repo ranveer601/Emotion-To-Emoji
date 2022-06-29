@@ -50,13 +50,13 @@ function gotResult(error, Results) {
         prediction2 = Results[1].label;
         speak();
         if (prediction1 == "Happy") {
-            document.getElementById("update_emoji").innerHTML = "&#128512;"; 
+            document.getElementById("update_emoji1").innerHTML = "&#128512;"; 
         }
         if (prediction1 == "Sad") {
-            document.getElementById("update_emoji").innerHTML = "&#128532;"; 
+            document.getElementById("update_emoji1").innerHTML = "&#128532;"; 
         }
         if (prediction1 == "Angry") {
-            document.getElementById("update_emoji").innerHTML = "&#128548;"; 
+            document.getElementById("update_emoji1").innerHTML = "&#128548;"; 
         }
         if (prediction2 == "Happy") {
             document.getElementById("update_emoji2").innerHTML = "&#128512;"; 
